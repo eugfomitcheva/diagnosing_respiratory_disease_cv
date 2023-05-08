@@ -1,10 +1,9 @@
 ## Diagnosing Respiratory Disease from Chest X-Rays using Computer Vision
 
-### Problem
+## Problem
 We seek to classify common respiratory diseases (viral pneumonia, lung opacity, COVID, and normal) from chest x-ray images via a survey of supervised and self-supervised methods. 
 
-### Approach
-TBU
+## Approach
 ![Screenshot](screenshot.png)
 
 
