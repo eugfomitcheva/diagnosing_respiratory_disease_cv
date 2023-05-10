@@ -26,7 +26,10 @@ diagnosing_respiratory_disease_cv
   - An example of a correctly formatted data path is given in the notebook.
 
 2. resnet_vgg.ipynb
-- 
+- Select the desired options for classification task, model type, and training task
+  - Classification options: ['multiclass', 'binary']
+  - Model options: ['resnet', 'vgg']
+  - Training options: ['finetune', 'scratch']
 
 3. evae.ipynb
 4. mae_vit.ipynb
