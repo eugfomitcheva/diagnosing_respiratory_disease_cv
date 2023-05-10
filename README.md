@@ -42,5 +42,6 @@ diagnosing_respiratory_disease_cv
     - Revision of filepaths for these models is sufficient for implementation to run
 - Training recommended on GPU; depending on performance 20 epochs can take 3+ hours
     
-5. mae_vit.ipynb
-
+4. mae_vit.ipynb
+- Amend pathfiles to data
+- Training recommended on GPU; depending on performance 20 epochs can take 3+ hours
