@@ -19,20 +19,25 @@ diagnosing_respiratory_disease_cv
 │   └───mae_vit.ipynb
 ```
 
-## Instructions for use:
+## Instructions For Use:
 1. baseline_models.ipynb
 - Set the path to the COVID-19 Radiography Dataset in the first code block under section 1. Read / Format Data.
-  - The pathway should include everything except the name of the folder where the data is stored
-  - An example of a correctly formatted data path is given in the notebook.
+    - The pathway should include everything except the name of the folder where the data is stored
+    - An example of a correctly formatted data path is given in the notebook.
 
 2. resnet_vgg.ipynb
 - Select the desired options for classification task, model type, and training task
-  - Classification options: ['multiclass', 'binary']
-  - Model options: ['resnet', 'vgg']
-  - Training options: ['finetune', 'scratch']
+    - Classification options: ['multiclass', 'binary']
+    - Model options: ['resnet', 'vgg']
+    - Training options: ['finetune', 'scratch']
 - Format data into folders consisting of train/val/test splits
-  - In the notebook, this folder is called 'train_val_test', and contains a 60:30:10 split for all raw images for each class
+    - In the notebook, this folder is called 'train_val_test', and contains a 60:30:10 split for all raw images for each class
 
 3. evae.ipynb
-4. mae_vit.ipynb
+- Amend pathfiles to data
+- Requires pre-trained ResNet18 and VGG16 (loads in saved weights)
+    - Revision of filepaths for these models is sufficient for implementation to run
+- Training recommended on GPU; depending on performance 20 epochs can take 3+ hours
+    
+5. mae_vit.ipynb
 
