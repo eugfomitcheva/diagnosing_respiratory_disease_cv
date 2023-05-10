@@ -19,7 +19,7 @@ diagnosing_respiratory_disease_cv
 │   └───mae_vit.ipynb
 ```
 
-## Instructions For Use:
+## Instructions For Use
 1. baseline_models.ipynb
 - Set the path to the COVID-19 Radiography Dataset in the first code block under section 1. Read / Format Data.
     - The pathway should include everything except the name of the folder where the data is stored
