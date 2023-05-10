@@ -12,11 +12,14 @@ As different individuals worked on the various approaches, each of the notebooks
 diagnosing_respiratory_disease_cv
 │   README.md
 └───requirements.txt
+└───data
+│   └───data_origination.ipynb
 └───models
 │   └───baseline_models.ipynb
 │   └───resnet_vgg.ipynb
 │   └───evae.ipynb
 │   └───mae_vit.ipynb
+└───ignore
 ```
 
 ## Instructions For Use
