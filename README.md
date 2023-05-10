@@ -30,6 +30,8 @@ diagnosing_respiratory_disease_cv
   - Classification options: ['multiclass', 'binary']
   - Model options: ['resnet', 'vgg']
   - Training options: ['finetune', 'scratch']
+- Format data into folders consisting of train/val/test splits
+  - In the notebook, this folder is called 'train_val_test', and contains a 60:30:10 split for all raw images for each class
 
 3. evae.ipynb
 4. mae_vit.ipynb
